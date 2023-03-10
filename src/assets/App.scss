@@ -1,0 +1,58 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,500;1,600&family=Mulish:ital,wght@0,500;1,500&display=swap');
+
+html, body {
+  background-image: linear-gradient(to top, #081221, #03080f);
+}
+
+* {
+  color: #c1d1e8;
+}
+
+label {
+  color: #ffffff;
+}
+
+button {
+  background: #5692e8;
+}
+
+a, .router-link-exact-active {
+  color: #5692e8 !important;
+}
+
+.is-relative {
+  position: relative;
+}
+
+.is-absolute {
+  position: absolute;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+  padding-bottom: 7rem;
+}
+
+nav {
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
+
+.card {
+  text-align: start;
+  background: #0e1a2b;
+}

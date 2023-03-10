@@ -1,0 +1,1 @@
+export const GAMES_API = 'https://public.connectnow.org.uk/applicant-test/';
